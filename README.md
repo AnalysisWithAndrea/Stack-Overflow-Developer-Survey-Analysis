@@ -3,7 +3,7 @@
 Downloaded dataset from [Stack Overflow's 2019 Developer Survey](https://insights.stackoverflow.com/survey) and selected a randomised subset containing around 1/10th of the original data.
 
 ## Data Cleaning
-Used a pandas funciton to drop duplicates, imputed missing values, normalized compensation data to show anual compensation across respondents.
+Used pandas to drop duplicates, impute missing values, normalize compensation data to show anual compensation across respondents.
 
 ## Data Exploration
 Graphed the distribution curve for the ConvertedComp column and found there is a positively skewed distribution. Calculated the median ConvertedComp to be $57,745. Discovered 879 outliers in the ConvertedComp column and removed them. Found the correlation between Age and all other numerical variables.
